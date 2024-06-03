@@ -1,0 +1,12 @@
+{
+    "navbar": {
+        "linkOne": "Inicio",
+        "linkTwo": "Sobre nosotors",
+        "linkThree": "Menú",
+        "linkFour": "Eventos",
+        "linkFive": "Contacto",
+        "language": "Idioma",
+        "spanish": "Español",
+        "english": "Inglés"
+    }
+}

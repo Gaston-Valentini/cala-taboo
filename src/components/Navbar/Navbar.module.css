@@ -1,0 +1,155 @@
+.container {
+    position: fixed;
+    width: calc(100% - 40px);
+    height: 50px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--lightBrown);
+    box-shadow: 0 0 10px black;
+}
+
+.logo {
+    height: 100%;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.links {
+    height: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.linksClose {
+    display: none;
+}
+
+.overlay {
+    height: 100%;
+}
+
+.linksLink {
+    height: 100%;
+}
+
+.linksLink a {
+    height: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.linksLink a:hover {
+    color: white;
+    background-color: var(--brown);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttonsLanguage {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttonsLanguageFlag {
+    height: 22px;
+    border: 1px solid var(--brown);
+}
+
+.buttonsLanguageFlag img {
+    height: 100%;
+}
+
+.buttonsLanguageSelector {
+    font-weight: 600;
+    background-color: var(--lightBrown);
+    border: none;
+    outline: none;
+}
+
+.buttonsLanguageSelector:hover {
+    cursor: pointer;
+    color: white;
+    background-color: var(--brown);
+}
+
+.buttonsLanguageSelector option {
+    font-weight: 600;
+    color: white;
+}
+
+.buttonsBars {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .overlay {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 50px);
+        display: flex;
+        justify-content: flex-end;
+        transition: 0.3s;
+    }
+    .overlayActive {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .links {
+        width: 100%;
+        max-width: 200px;
+        padding: 20px 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+        background-color: var(--brown);
+        border-left: 1px solid var(--lightBrown);
+        transform: translateX(201px);
+        transition: 0.3s;
+    }
+    .linksActive {
+        transform: translateX(0);
+    }
+    .linksClose {
+        display: block;
+        align-self: flex-start;
+        padding-left: 20px;
+        font-size: 25px;
+        color: var(--lightBrown);
+        transition: 0.3s;
+    }
+    .linksClose:hover {
+        cursor: pointer;
+        color: white;
+    }
+    .linksLink {
+        height: max-content;
+    }
+    .linksLink a {
+        padding: 0;
+        height: max-content;
+        color: white;
+    }
+    .buttonsBars {
+        display: block;
+        font-size: 25px;
+    }
+    .buttonsBars path {
+        color: var(--brown);
+    }
+}
