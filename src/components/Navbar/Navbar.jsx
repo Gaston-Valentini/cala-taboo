@@ -1,9 +1,9 @@
 import style from "./Navbar.module.css";
 import { useTranslation } from "react-i18next";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logos/logo.png";
 import { IoMdClose } from "react-icons/io";
-import flagSpain from "../../assets/images/flag-spain.png";
-import flagEngland from "../../assets/images/flag-england.png";
+import flagSpain from "../../assets/images/flags/flag-spain.png";
+import flagEngland from "../../assets/images/flags/flag-england.png";
 import { FaBars } from "react-icons/fa6";
 import { useState } from "react";
 

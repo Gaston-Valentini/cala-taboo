@@ -8,6 +8,7 @@
     align-items: center;
     background-color: var(--lightBrown);
     box-shadow: 0 0 10px black;
+    z-index: 1000;
 }
 
 .logo {
@@ -106,6 +107,7 @@
         display: flex;
         justify-content: flex-end;
         transition: 0.3s;
+        pointer-events: none;
     }
     .overlayActive {
         background-color: rgba(0, 0, 0, 0.5);
