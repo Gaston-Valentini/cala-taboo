@@ -17,7 +17,7 @@ export default function Slider({ children }) {
     useEffect(() => {}, []);
 
     return (
-        <section className={style.container}>
+        <div className={style.container}>
             <div
                 className={style.big}
                 style={{ width: `${childrenArray.length}00%`, transform: `translateX(-${(index / childrenArray.length) * 100}%)` }}
@@ -35,6 +35,6 @@ export default function Slider({ children }) {
                     <div key={i} className={index === i ? `${style.dotsDot} ${style.dotsDotActive}` : style.dotsDot} onClick={() => setIndex(i)} />
                 ))}
             </div>
-        </section>
+        </div>
     );
 }
