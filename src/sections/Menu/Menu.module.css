@@ -1,0 +1,220 @@
+.container {
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: var(--brown);
+}
+
+.navbar {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.navbarLink {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border: 1px solid var(--lightBrown);
+    transition: 0.3s;
+}
+
+.navbarLink:hover {
+    color: var(--brown);
+    background-color: var(--lightBrown);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.menuSection {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 600;
+}
+
+.menuSectionTitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menuSectionTitleImage {
+    height: 50px;
+    width: 50px;
+    min-width: 50px;
+}
+
+.menuSectionTitleImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.menuSectionTitleText {
+    text-align: center;
+    font-size: 40px;
+    color: var(--lightBrown);
+}
+
+.menuSectionPlates {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.menuSectionPlatesPlate {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.menuSectionPlatesPlateImage {
+    width: 100%;
+    height: 100%;
+}
+
+.menuSectionPlatesPlateImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: -3px 3px 3px black;
+}
+
+.menuSectionPlatesPlateData {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menuSectionPlatesPlateDataName {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menuSectionPlatesPlateDataName p {
+    font-size: 25px;
+    color: var(--lightBrown);
+}
+
+.menuSectionPlatesPlateDataName hr {
+    flex-grow: 1;
+    border: 1px dashed white;
+    height: 0px;
+}
+
+.menuSectionPlatesPlateDataName span {
+    font-size: 25px;
+    color: var(--lightBrown);
+}
+
+.menuSectionPlatesPlateDataDescription {
+    color: white;
+}
+
+.menuSectionPlatesPlateDataAllergens {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.menuSectionPlatesPlateDataAllergensIcon {
+    height: 30px;
+    width: 30px;
+}
+
+.menuSectionPlatesPlateDataAllergensIcon img {
+    height: 100%;
+    width: 100%;
+}
+
+.allergens {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.allergensTitle {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.allergensList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.allergensListElement {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+.allergensListElementIcon {
+    height: 50px;
+    width: 50px;
+}
+
+.allergensListElementIcon img {
+    height: 100%;
+    width: 100%;
+}
+
+.allergensListElementText {
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 50px 20px;
+    }
+    .menuSectionTitleText {
+        font-size: 30px;
+    }
+    .menuSectionPlates {
+        gap: 20px;
+    }
+    .menuSectionPlatesPlate {
+        grid-template-columns: 1fr 2fr;
+    }
+    .menuSectionPlatesPlateDataName p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menuSectionPlates {
+        align-items: center;
+    }
+    .menuSectionPlatesPlate {
+        max-width: 400px;
+        grid-template-columns: 1fr;
+    }
+    .allergensList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

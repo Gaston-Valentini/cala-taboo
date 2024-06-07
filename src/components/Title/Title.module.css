@@ -23,7 +23,6 @@
     flex-grow: 1;
     border: none;
     height: 3px;
-    background-color: var(--brown);
 }
 
 .decoratorIcon {
@@ -35,7 +34,6 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    filter: invert(14%) sepia(100%) saturate(100%) hue-rotate(324deg);
 }
 
 @media (max-width: 1024px) {

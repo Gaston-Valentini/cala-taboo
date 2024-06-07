@@ -33,6 +33,7 @@
 
 .overlay {
     height: 100%;
+    pointer-events: all;
 }
 
 .linksLink {
@@ -107,7 +108,6 @@
         display: flex;
         justify-content: flex-end;
         transition: 0.3s;
-        pointer-events: none;
     }
     .overlayActive {
         background-color: rgba(0, 0, 0, 0.5);

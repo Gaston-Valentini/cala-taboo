@@ -72,3 +72,10 @@
 .dotsDotActive {
     border: 2px solid rgb(0, 0, 0, 0.5);
 }
+
+@media (max-width: 1024px) {
+    .navbar {
+        width: calc(100% - 20px);
+        padding: 0 10px;
+    }
+}

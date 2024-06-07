@@ -3,6 +3,8 @@
     font-family: var(--primary);
     font-size: 18px;
     font-weight: 500;
+    scroll-behavior: smooth;
+    scroll-margin-top: 50px;
 }
 
 h1,

@@ -8,5 +8,239 @@
         "language": "Idioma",
         "spanish": "Español",
         "english": "Inglés"
+    },
+    "about": {
+        "title": "NUESTRA HISTORIA"
+    },
+    "menu": {
+        "title": "MENÚ",
+        "salads": "Bowls de Ensaladas y Exóticos",
+        "salads1": {
+            "name": "MEDITERRÁNEA",
+            "description": "Mix de lechugas de la huerta, tomate, cebolla, pepino, atún, olivas y huevo."
+        },
+        "salads2": {
+            "name": "GAZPACHO",
+            "description": "Delicioso y fresco gazpacho estilo andaluz acompañado de picatostes e ingredientes de la huerta."
+        },
+        "salads3": {
+            "name": "DEL CESAR",
+            "description": "Variedad de lechugas, picatostes tostados, queso parmesano, tomate cherry, tiras de pollo y salsa especial del cesar."
+        },
+        "salads4": {
+            "name": "TARTAR DE SALMÓN",
+            "description": "Exótico y espectacular."
+        },
+        "salads5": {
+            "name": "TARTAR DE ATÚN",
+            "description": "Sabroso y especial, acompañado de vinagreta de mango y ralladura de lima."
+        },
+        "salads6": {
+            "name": "ESPECIAL QUESO CABRA",
+            "description": "Mix de lechugas, tomate cherry, queso de cabra, top de frutos secos caramelizados y bacón crujiente, bañado con miel y vinagre balsamico."
+        },
+        "salads7": {
+            "name": "TATAKI DE ATÚN",
+            "description": "Lonchas de atún marinado y sellado con ajonjolí, acompañado con wasabi y soja."
+        },
+        "salads8": {
+            "name": "TABOO PARADISE",
+            "description": "Mix de frutas y lechuga con sabrosos tacos de queso edam y frutos secos, tiras de jamón serrano y bañado por nuestra auténtica salsa thai."
+        },
+        "rations": "Raciones y Picoteo",
+        "rations1": {
+            "name": "PATATAS BRAVAS",
+            "description": "Deliciosas patatas bañadas en nuestra auténtica salsa brava de la casa."
+        },
+        "rations2": {
+            "name": "ALITAS HOT WINGS",
+            "description": "Crujientes al estilo Jack Daniels."
+        },
+        "rations3": {
+            "name": "GUACAMOLE VERACRUZ",
+            "description": "Sabroso y fresco guacamole servido en mortero acompañado de totopos crujientes."
+        },
+        "rations4": {
+            "name": "ENSALADILLA RUSA",
+            "description": "Un clásico, casera y fresca."
+        },
+        "rations5": {
+            "name": "SET DE CROQUETAS",
+            "description": "Combinación de croquetas caseras de jamón, boletus y pollo (6 uds)."
+        },
+        "rations6": {
+            "name": "NACHOS PANCHO VILLA",
+            "description": "Crujientes y sabrosos nachos de maíz con chili con carne y gratinados con mezcla de quesos, rodajas de jalapeño, salsa pico de gallo, cilantro y coronados con salsa guacamole."
+        },
+        "rations7": {
+            "name": "COMBO TABOO",
+            "description": "Alitas, aros de cebolla y jalapeños rellenos de queso acompañados de salsa bbq, crema agria y nuestras patatas fritas especiales."
+        },
+        "rations8": {
+            "name": "TIRAS NUEVO MEXICO",
+            "description": "Tiras de costilla de cerdo asado y glaseadas con salsa bbq al estilo Jack Daniels y toque de cebollino. Acompañado de totopos y salsa guacamole."
+        },
+        "rations9": {
+            "name": "CALAMAR BAHÍA PLANCHA",
+            "description": ""
+        },
+        "rations10": {
+            "name": "FRITURA DE CHOPITOS Y CALAMAR",
+            "description": "Combinación de fritura de calamares y chopitos a la andaluza. ¡¡Espectacular!!"
+        },
+        "rations11": {
+            "name": "POLLO ACAPULCO",
+            "description": "Tiras de solomillo de pollo crujiente acompañado de dos salsas."
+        },
+        "boards": "Tablas Taboo",
+        "boards1": {
+            "name": "DE HIBÉRICOS",
+            "description": "Especial de hibéricos acompañada de tostas con tomate"
+        },
+        "boards2": {
+            "name": "ESPECIAL TABOO",
+            "description": "Una deliciosa combinación de patés y quesos D.O acompañado de pepinillos, cebolletas, tostas para untar y confituras de sabores. Un espectáculo."
+        },
+        "boards3": {
+            "name": "JAMÓN HIBÉRICO Y MANCHEGO",
+            "description": "Deliciosa tabla de jamón hibérico y queso manchego D.O acompañado de tostas con tomate."
+        },
+        "grill": "The Grill & BBQ",
+        "grill1": {
+            "name": "RACK COSTILLAS AL ESTILO ST. LOUIS",
+            "description": "Auténticas e inimitables."
+        },
+        "grill2": {
+            "name": "LOMO DE ENTRECOTE",
+            "description": "300grs de vacuno."
+        },
+        "grill3": {
+            "name": "LA PRESA IBÉRICA",
+            "description": "Sabrosísimo filete de auténtica presa ibérica con padrón y patatas baby o fritas."
+        },
+        "grill4": {
+            "name": "SALMÓN",
+            "description": "Lomo de salmón al jugo de limón y toque de eneldo."
+        },
+        "grill5": {
+            "name": "LOMO DE ATÚN FRESCO",
+            "description": "AL estilo teriyaki."
+        },
+        "grill6": {
+            "name": "PARRILLADA DE VERDURAS TABOO",
+            "description": "Con los mejores ingredientes de nuestra huerta."
+        },
+        "sandwiches": "Sand/Wich Time",
+        "sandwiches1": {
+            "name": "BLT TABOO",
+            "description": "Un clásico. delicioso pollo a la parrilla con tomate, lechuga, salsa mayo y bacón crujiente en una magnifica presentación."
+        },
+        "sandwiches2": {
+            "name": "NORWAY",
+            "description": "Sabroso salmón ahumado noruego acompañado de crema de queso fresco light, aguacate, lechuga y tomate."
+        },
+        "sandwiches3": {
+            "name": "STREET NY. HOT MEGADOG",
+            "description": "Salchicha xxl especial acompañado de nuestra auténtica cebolla crujiente, ketchup y mostaza clásica."
+        },
+        "burgers": "Burguer World",
+        "burgers1": {
+            "name": "SMASH BURGER TABOO",
+            "description": "Deliciosa hamburguesa doble de vacuno al puro estilo smash con queso cheddar, pepinillo, cebolla caramelizada y salsa burguer."
+        },
+        "burgers2": {
+            "name": "LA IBÉRICA",
+            "description": "200grs de auténtica carne de vacuno 100% con rúcula, jamón ibérico y queso manchego."
+        },
+        "burgers3": {
+            "name": "USA Nº1",
+            "description": "Auténtica hamburguesa al puro estilo neoyorkino. Vacuno 100%, queso cheddar, lechuga, tomate, cebolla, pepinillo y bacon."
+        },
+        "burgers4": {
+            "name": "BELLA ITALIA",
+            "description": "Deliciosa carne de vacuno madurada, acompañada de cremoso queso provolone, rúcula, tomate seco y un toque de albahaca, todo coronado con escamas de parmesano."
+        },
+        "burgers5": {
+            "name": "TEX MEX",
+            "description": "Carne de vacuno 100% con aguacate, cebolla morada, jalapeños y queso cheddar, acompañada de guacamole, salsa pico de gallo, chili con carne y totopos."
+        },
+        "burgers6": {
+            "name": "FRANCESA",
+            "description": "200grs de vacuno 100% coronado por delicioso quesio brie, cebolla caramelizada, mix de ensalada y crema de champiñones."
+        },
+        "burgers7": {
+            "name": "CRAZY CHICKEN",
+            "description": "Pechuga de pollo fresca salpimentada con tomate, nuestra salsa especial mayo y lechuga."
+        },
+        "tex-mex": "Zona Tex Mex",
+        "tex-mex1": {
+            "name": "FAJITAS DE POLLO-RES O MIXTA",
+            "description": "Para todos los gustos."
+        },
+        "tex-mex2": {
+            "name": "TRÍO TACOS TABOO",
+            "description": "Degustación de 3 tipos de taco. el pulled pork, el pollo loco mechado, y el de carne al estilo Tijuana. Acompañados de salsa pico de gallo, crema agria, queso cheddar y guacamole."
+        },
+        "tex-mex3": {
+            "name": "FLAUTAS CHIHUAHUA",
+            "description": "Auténticas flautas mexicanas rellenas de pollo loco, cheddar y salsa verde mexicana."
+        },
+        "rice": "Nuestro Arroz",
+        "rice1": {
+            "name": "ARROZ DE MAGRO CON VERDURAS",
+            "description": ""
+        },
+        "rice2": {
+            "name": "ARROZ DE POLLO CON VERDURAS",
+            "description": ""
+        },
+        "rice3": {
+            "name": "ARROZ SENYORET",
+            "description": ""
+        },
+        "desserts": "Sweet Moment",
+        "desserts1": {
+            "name": "EL BROWNIE",
+            "description": "Brownie de chocolate acompañado de de una bola de helado 100%de la casa."
+        },
+        "desserts2": {
+            "name": "NUESTRA TARTA DE QUESO CON FRUTOS ROJOS",
+            "description": "Una delicia de sabor."
+        },
+        "desserts3": {
+            "name": "CARROT CAKE",
+            "description": "Delicioso pastel de zanahoria"
+        },
+        "desserts4": {
+            "name": "MONTAÑA DE TORITAS ALABAMA",
+            "description": "Delicioso pastel de zanahoria"
+        },
+        "desserts5": {
+            "name": "TIRAMISÚ CASERO",
+            "description": "El clásico de los clásicos"
+        },
+        "desserts6": {
+            "name": "MUERTE POR CHOCOLATE",
+            "description": ""
+        },
+        "desserts7": {
+            "name": "CARPACCIO DE PIÑA COSTA RICA",
+            "description": "Lo mejor del verano."
+        },
+        "allergensTitle": "Consulta nuestra carta de alergenos",
+        "allergensGluten": "Gluten",
+        "allergensCrustaceans": "Crustáceos",
+        "allergensEgg": "Huevo",
+        "allergensFish": "Pescado",
+        "allergensPeanuts": "Cacahuetes",
+        "allergensSoja": "Soja",
+        "allergensMilk": "Lácteos",
+        "allergensShelledFruits": "Frutos con cáscara",
+        "allergensCelery": "Apio",
+        "allergensMustard": "Mostaza",
+        "allergensSesame": "Sésamo",
+        "allergensSulfites": "Sulfitos",
+        "allergensLupins": "Lupines",
+        "allergensMollusks": "Moluscos"
     }
 }

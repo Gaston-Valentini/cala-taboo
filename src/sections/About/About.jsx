@@ -1,9 +1,11 @@
 import style from "./About.module.css";
+import { useTranslation } from "react-i18next";
 import Title from "../../components/Title/Title";
 import Slider from "../../components/Slider/Slider";
 import { useState, useEffect } from "react";
 
 export default function About() {
+    const { t } = useTranslation("global");
     const [gallery, setGallery] = useState(window.innerWidth <= 768);
 
     const handleResize = () => {
@@ -21,7 +23,7 @@ export default function About() {
     return (
         <section className={style.container}>
             <div className={style.content}>
-                <Title text={"NUESTRA HISTORIA"} />
+                <Title text={t("about.title")} color={"dark"} />
                 <p className={style.text}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nobis assumenda consequatur architecto voluptatum magnam
                     accusantium in voluptatibus explicabo! Impedit voluptas nam facilis maiores quisquam veniam atque officiis rerum sequi. Lorem
