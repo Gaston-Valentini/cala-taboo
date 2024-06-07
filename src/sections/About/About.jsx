@@ -21,7 +21,7 @@ export default function About() {
     }, []);
 
     return (
-        <section className={style.container}>
+        <section className={style.container} id="about">
             <div className={style.content}>
                 <Title text={t("about.title")} color={"dark"} />
                 <p className={style.text}>

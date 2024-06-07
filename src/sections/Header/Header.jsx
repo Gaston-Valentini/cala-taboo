@@ -3,7 +3,7 @@ import Slider from "../../components/Slider/Slider";
 
 export default function Header() {
     return (
-        <section className={style.container}>
+        <section className={style.container} id="home">
             <Slider>
                 <div>
                     <img src={"https://img.freepik.com/foto-gratis/fondo-textura-hoja-verde_501050-120.jpg"} />

@@ -2,6 +2,7 @@ import style from "./App.module.css";
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./sections/Header/Header";
 import About from "./sections/About/About";
+import Events from "./sections/Events/Events";
 import Menu from "./sections/Menu/Menu";
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
             <Navbar />
             <Header />
             <About />
+            <Events />
             <Menu />
         </div>
     );

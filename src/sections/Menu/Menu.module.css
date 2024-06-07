@@ -5,6 +5,7 @@
     align-items: center;
     gap: 50px;
     background-color: var(--brown);
+    box-shadow: var(--sectionShadow);
 }
 
 .navbar {
@@ -16,8 +17,9 @@
 }
 
 .navbarLink {
-    text-decoration: none;
     padding: 10px;
+    text-align: center;
+    text-decoration: none;
     color: white;
     border: 1px solid var(--lightBrown);
     transition: 0.3s;
@@ -89,7 +91,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: -3px 3px 3px black;
+    box-shadow: var(--cardShadow);
 }
 
 .menuSectionPlatesPlateData {
@@ -206,6 +208,10 @@
 }
 
 @media (max-width: 768px) {
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
     .menuSectionPlates {
         align-items: center;
     }
@@ -214,6 +220,13 @@
         grid-template-columns: 1fr;
     }
     .allergensList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }

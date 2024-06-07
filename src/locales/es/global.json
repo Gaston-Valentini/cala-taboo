@@ -2,8 +2,8 @@
     "navbar": {
         "linkOne": "Inicio",
         "linkTwo": "Sobre nosotors",
-        "linkThree": "Menú",
-        "linkFour": "Eventos",
+        "linkThree": "Eventos",
+        "linkFour": "Menú",
         "linkFive": "Contacto",
         "language": "Idioma",
         "spanish": "Español",
@@ -11,6 +11,9 @@
     },
     "about": {
         "title": "NUESTRA HISTORIA"
+    },
+    "events": {
+        "title": "EVENTOS"
     },
     "menu": {
         "title": "MENÚ",
@@ -227,20 +230,19 @@
             "name": "CARPACCIO DE PIÑA COSTA RICA",
             "description": "Lo mejor del verano."
         },
-        "allergensTitle": "Consulta nuestra carta de alergenos",
-        "allergensGluten": "Gluten",
-        "allergensCrustaceans": "Crustáceos",
-        "allergensEgg": "Huevo",
-        "allergensFish": "Pescado",
-        "allergensPeanuts": "Cacahuetes",
-        "allergensSoja": "Soja",
-        "allergensMilk": "Lácteos",
-        "allergensShelledFruits": "Frutos con cáscara",
-        "allergensCelery": "Apio",
-        "allergensMustard": "Mostaza",
-        "allergensSesame": "Sésamo",
-        "allergensSulfites": "Sulfitos",
-        "allergensLupins": "Lupines",
-        "allergensMollusks": "Moluscos"
+        "allergensOne": "Gluten",
+        "allergensTwo": "Crustáceos",
+        "allergensThree": "Huevo",
+        "allergensFour": "Pescado",
+        "allergensFive": "Cacahuetes",
+        "allergensSix": "Soja",
+        "allergensSeven": "Lácteos",
+        "allergensEight": "Frutos con cáscara",
+        "allergensNine": "Apio",
+        "allergensTen": "Mostaza",
+        "allergensEleven": "Sésamo",
+        "allergensTwelve": "Sulfitos",
+        "allergensThirteen": "Altramuces",
+        "allergensFourteen": "Moluscos"
     }
 }

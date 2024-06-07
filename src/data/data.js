@@ -22,6 +22,30 @@ import sulfites from "../assets/images/icons/sulfites.png";
 import lupins from "../assets/images/icons/lupins.png";
 import mollusks from "../assets/images/icons/mollusks.png";
 
+const events = [
+    {
+        image: "https://www.calataboo.com/wp-content/uploads/2024/03/TABOO-JUEVES-28-MARZO-2024.jpg",
+    },
+    {
+        image: "https://www.calataboo.com/wp-content/uploads/2024/03/VIERNES-29.jpg",
+    },
+    {
+        image: "https://www.calataboo.com/wp-content/uploads/2024/03/DISCO-LOVE.jpg",
+    },
+    {
+        image: "https://www.calataboo.com/wp-content/uploads/2024/03/Super-Sunday-31-Marzo-2024.jpg",
+    },
+    {
+        image: "https://www.calataboo.com/wp-content/uploads/2024/03/SALSABADOS-23-MARZOSANTA-SALSA.jpg",
+    },
+    {
+        image: "https://www.calataboo.com/wp-content/uploads/2024/03/VITO.jpg",
+    },
+    {
+        image: "https://www.calataboo.com/wp-content/uploads/2024/03/DOMINGO-31-MARZO.jpg",
+    },
+];
+
 const menu = [
     {
         id: "salads",
@@ -446,20 +470,20 @@ const menu = [
 ];
 
 const allergens = [
-    { icon: gluten, text: "menu.allergensGluten", color: "#FFCC75" },
-    { icon: crustaceans, text: "menu.allergensCrustaceans", color: "#F15A24" },
-    { icon: egg, text: "menu.allergensEgg", color: "#F9E8D4" },
-    { icon: fish, text: "menu.allergensFish", color: "#D9DEFB" },
-    { icon: peanuts, text: "menu.allergensPeanuts", color: "#F5C86E" },
-    { icon: soja, text: "menu.allergensSoja", color: "#39B54A" },
-    { icon: milk, text: "menu.allergensMilk", color: "#FFF9E2" },
-    { icon: shelledFruits, text: "menu.allergensShelledFruits", color: "#A44F3E" },
-    { icon: celery, text: "menu.allergensCelery", color: "#BCEA73" },
-    { icon: mustard, text: "menu.allergensMustard", color: "#FFD150" },
-    { icon: sesame, text: "menu.allergensSesame", color: "#5B5B68" },
-    { icon: sulfites, text: "menu.allergensSulfites", color: "#36D49B" },
-    { icon: lupins, text: "menu.allergensLupins", color: "#FFCA28" },
-    { icon: mollusks, text: "menu.allergensMollusks", color: "#FF5F7F" },
+    { icon: gluten, text: "menu.allergensOne", color: "#FFCC75" },
+    { icon: crustaceans, text: "menu.allergensTwo", color: "#F15A24" },
+    { icon: egg, text: "menu.allergensThree", color: "#F9E8D4" },
+    { icon: fish, text: "menu.allergensFour", color: "#D9DEFB" },
+    { icon: peanuts, text: "menu.allergensFive", color: "#F5C86E" },
+    { icon: soja, text: "menu.allergensSix", color: "#39B54A" },
+    { icon: milk, text: "menu.allergensSeven", color: "#FFF9E2" },
+    { icon: shelledFruits, text: "menu.allergensEight", color: "#A44F3E" },
+    { icon: celery, text: "menu.allergensNine", color: "#BCEA73" },
+    { icon: mustard, text: "menu.allergensTen", color: "#FFD150" },
+    { icon: sesame, text: "menu.allergensEleven", color: "#5B5B68" },
+    { icon: sulfites, text: "menu.allergensTwelve", color: "#36D49B" },
+    { icon: lupins, text: "menu.allergensThirteen", color: "#FFCA28" },
+    { icon: mollusks, text: "menu.allergensFourteen", color: "#FF5F7F" },
 ];
 
-export { menu, allergens };
+export { events, menu, allergens };

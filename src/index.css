@@ -1,6 +1,8 @@
 :root {
     --brown: #49312d;
     --lightBrown: #ffe2bf;
+    --sectionShadow: 0 0 10px black;
+    --cardShadow: -3px 3px 7px black;
     --primary: "EB Garamond", serif;
     --secondary: "Rye", serif;
 }

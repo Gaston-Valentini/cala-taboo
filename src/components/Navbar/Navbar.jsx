@@ -31,27 +31,27 @@ export default function Navbar() {
                 <ul className={menu ? `${style.links} ${style.linksActive}` : style.links}>
                     <IoMdClose className={style.linksClose} onClick={onMenu} />
                     <li className={style.linksLink}>
-                        <a href="#" onClick={onMenu}>
+                        <a href="#home" onClick={onMenu}>
                             {t("navbar.linkOne")}
                         </a>
                     </li>
                     <li className={style.linksLink}>
-                        <a href="#" onClick={onMenu}>
+                        <a href="#about" onClick={onMenu}>
                             {t("navbar.linkTwo")}
                         </a>
                     </li>
                     <li className={style.linksLink}>
-                        <a href="#" onClick={onMenu}>
+                        <a href="#events" onClick={onMenu}>
                             {t("navbar.linkThree")}
                         </a>
                     </li>
                     <li className={style.linksLink}>
-                        <a href="#" onClick={onMenu}>
+                        <a href="#menu" onClick={onMenu}>
                             {t("navbar.linkFour")}
                         </a>
                     </li>
                     <li className={style.linksLink}>
-                        <a href="#" onClick={onMenu}>
+                        <a href="#contact" onClick={onMenu}>
                             {t("navbar.linkFive")}
                         </a>
                     </li>

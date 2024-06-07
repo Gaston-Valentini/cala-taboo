@@ -3,6 +3,8 @@
     display: flex;
     justify-content: center;
     background-color: var(--lightBrown);
+    box-shadow: var(--sectionShadow);
+    position: relative;
 }
 
 .content {
@@ -28,7 +30,7 @@
 .imagesImage {
     height: 100%;
     width: 100%;
-    box-shadow: -3px 3px 7px black;
+    box-shadow: var(--cardShadow);
 }
 
 .imagesImage img {
@@ -39,7 +41,7 @@
 
 .imagesSlider {
     max-height: 350px;
-    box-shadow: -3px 3px 7px black;
+    box-shadow: var(--cardShadow);
 }
 
 @media (max-width: 1024px) {
