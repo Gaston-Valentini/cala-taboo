@@ -19,7 +19,7 @@ export default function Menu() {
             </div>
             <div className={style.menu}>
                 {menu.map((section, sectionIndex) => (
-                    <MenuSection section={section} sectionIndex={sectionIndex} />
+                    <MenuSection section={section} sectionIndex={sectionIndex} key={sectionIndex} />
                 ))}
             </div>
             <div className={style.allergens}>
