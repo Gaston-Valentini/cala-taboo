@@ -17,6 +17,8 @@
     },
     "menu": {
         "title": "MENÚ",
+        "more": "Ver platos",
+        "moreActive": "Ocultar platos",
         "salads": "Bowls de Ensaladas y Exóticos",
         "salads1": {
             "name": "MEDITERRÁNEA",

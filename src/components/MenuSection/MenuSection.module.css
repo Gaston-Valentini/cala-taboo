@@ -1,0 +1,147 @@
+.container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 600;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titleImage {
+    height: 50px;
+    width: 50px;
+    min-width: 50px;
+}
+
+.titleImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.titleText {
+    text-align: center;
+    font-size: 40px;
+    color: var(--lightBrown);
+}
+
+.more {
+    width: max-content;
+    padding: 10px;
+    color: white;
+    border: 1px solid var(--lightBrown);
+    transition: 0.3s;
+}
+
+.more:hover {
+    cursor: pointer;
+    color: var(--brown);
+    background-color: var(--lightBrown);
+}
+
+.plates {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.platesPlate {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.platesPlateImage {
+    width: 100%;
+    height: 100%;
+}
+
+.platesPlateImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: var(--cardShadow);
+}
+
+.platesPlateData {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.platesPlateDataName {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.platesPlateDataName p {
+    font-size: 25px;
+    color: var(--lightBrown);
+}
+
+.platesPlateDataName hr {
+    flex-grow: 1;
+    border: 1px dashed white;
+    height: 0px;
+}
+
+.platesPlateDataName span {
+    font-size: 25px;
+    color: var(--lightBrown);
+}
+
+.platesPlateDataDescription {
+    color: white;
+}
+
+.platesPlateDataAllergens {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.platesPlateDataAllergensIcon {
+    height: 30px;
+    width: 30px;
+}
+
+.platesPlateDataAllergensIcon img {
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .titleText {
+        font-size: 30px;
+    }
+    .plates {
+        gap: 20px;
+    }
+    .platesPlate {
+        grid-template-columns: 1fr 2fr;
+    }
+    .platesPlateDataName p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        align-items: center;
+    }
+    .plates {
+        align-items: center;
+    }
+    .platesPlate {
+        max-width: 500px;
+        grid-template-columns: 1fr;
+    }
+}
