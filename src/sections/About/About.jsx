@@ -2,6 +2,9 @@ import style from "./About.module.css";
 import { useTranslation } from "react-i18next";
 import Title from "../../components/Title/Title";
 import Slider from "../../components/Slider/Slider";
+import image1 from "../../assets/images/about/image-1.jpg";
+import image2 from "../../assets/images/about/image-2.jpg";
+import image3 from "../../assets/images/about/image-3.jpg";
 import { useState, useEffect } from "react";
 
 export default function About() {
@@ -47,22 +50,13 @@ export default function About() {
                 {!gallery ? (
                     <div className={style.images}>
                         <div className={style.imagesImage}>
-                            <img
-                                src={"https://cdn.sortiraparis.com/images/80/100789/834071-too-restaurant-too-hotel-paris-photos-menu-entrees.jpg"}
-                                alt="Restaurante 1"
-                            />
+                            <img src={image1} alt="Restaurante 1" />
                         </div>
                         <div className={style.imagesImage}>
-                            <img
-                                src={"https://upload.wikimedia.org/wikipedia/commons/1/1d/Restaurant_in_The_Mus%C3%A9e_d%27Orsay.jpg"}
-                                alt="Restaurante 2"
-                            />
+                            <img src={image2} alt="Restaurante 2" />
                         </div>
                         <div className={style.imagesImage}>
-                            <img
-                                src={"https://hips.hearstapps.com/hmg-prod/images/restaurantes-moda-madrid-ceferino-65aa5b0e3160a.jpeg"}
-                                alt="Restaurante 3"
-                            />
+                            <img src={image3} alt="Restaurante 3" />
                         </div>
                     </div>
                 ) : (

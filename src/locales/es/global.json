@@ -1,7 +1,7 @@
 {
     "navbar": {
         "linkOne": "Inicio",
-        "linkTwo": "Sobre nosotors",
+        "linkTwo": "Sobre nosotros",
         "linkThree": "Eventos",
         "linkFour": "Menú",
         "linkFive": "Contacto",
@@ -139,7 +139,7 @@
             "description": "Un clásico. delicioso pollo a la parrilla con tomate, lechuga, salsa mayo y bacón crujiente en una magnifica presentación."
         },
         "sandwiches2": {
-            "name": "NORWAY",
+            "name": "NORWAY CLUB",
             "description": "Sabroso salmón ahumado noruego acompañado de crema de queso fresco light, aguacate, lechuga y tomate."
         },
         "sandwiches3": {
@@ -204,7 +204,7 @@
         "desserts": "Sweet Moment",
         "desserts1": {
             "name": "EL BROWNIE",
-            "description": "Brownie de chocolate acompañado de de una bola de helado 100%de la casa."
+            "description": "Brownie de chocolate acompañado de de una bola de helado 100% de la casa."
         },
         "desserts2": {
             "name": "NUESTRA TARTA DE QUESO CON FRUTOS ROJOS",
@@ -230,6 +230,7 @@
             "name": "CARPACCIO DE PIÑA COSTA RICA",
             "description": "Lo mejor del verano."
         },
+        "allergensTitle": "Consulta nuestra carta de alergenos",
         "allergensOne": "Gluten",
         "allergensTwo": "Crustáceos",
         "allergensThree": "Huevo",
@@ -244,5 +245,16 @@
         "allergensTwelve": "Sulfitos",
         "allergensThirteen": "Altramuces",
         "allergensFourteen": "Moluscos"
+    },
+    "slider": {
+        "slideOne": "La mejor gastronomía de la costa",
+        "slideTwo": "Disfruta de los mejores momentos junto a nosotros",
+        "slideThree": "Shows de fuego",
+        "slideFour": "Shows con boleadoras",
+        "slideFive": "Shows de tela",
+        "slideSix": "Servicio de cachimbas",
+        "slideSeven": "Los mejores DJ's",
+        "slideEight": "Coctelería profesional",
+        "slideNine": "Días temáticos"
     }
 }

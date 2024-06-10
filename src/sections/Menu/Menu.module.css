@@ -9,7 +9,6 @@
 }
 
 .navbar {
-    max-width: 1200px;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -212,11 +211,14 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+    .menuSection {
+        align-items: center;
+    }
     .menuSectionPlates {
         align-items: center;
     }
     .menuSectionPlatesPlate {
-        max-width: 400px;
+        max-width: 500px;
         grid-template-columns: 1fr;
     }
     .allergensList {
