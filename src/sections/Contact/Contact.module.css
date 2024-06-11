@@ -115,3 +115,12 @@
     color: var(--brown);
     background-color: white;
 }
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 20px;
+    }
+    .content {
+        grid-template-columns: 1fr;
+    }
+}
