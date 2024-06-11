@@ -12,7 +12,7 @@ export default function MenuSection({ section, sectionIndex }) {
     };
 
     return (
-        <div key={sectionIndex} id={section.id} className={style.container}>
+        <div key={sectionIndex} id={section.id} className={sectionIndex % 2 !== 0 ? `${style.container} ${style.containerRight}` : style.container}>
             <div className={style.title}>
                 <div className={style.titleImage}>
                     <img src={section.icon} />

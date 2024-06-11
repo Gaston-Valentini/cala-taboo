@@ -32,6 +32,8 @@
 }
 
 .menu {
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -88,34 +90,12 @@
     .container {
         padding: 50px 20px;
     }
-    .menuSectionTitleText {
-        font-size: 30px;
-    }
-    .menuSectionPlates {
-        gap: 20px;
-    }
-    .menuSectionPlatesPlate {
-        grid-template-columns: 1fr 2fr;
-    }
-    .menuSectionPlatesPlateDataName p {
-        font-size: 20px;
-    }
 }
 
 @media (max-width: 768px) {
     .navbar {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-    }
-    .menuSection {
-        align-items: center;
-    }
-    .menuSectionPlates {
-        align-items: center;
-    }
-    .menuSectionPlatesPlate {
-        max-width: 500px;
-        grid-template-columns: 1fr;
     }
     .allergensList {
         display: grid;
