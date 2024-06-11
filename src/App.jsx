@@ -5,6 +5,7 @@ import Banner from "./sections/Banner/Banner";
 import About from "./sections/About/About";
 import Events from "./sections/Events/Events";
 import Menu from "./sections/Menu/Menu";
+import Contact from "./sections/Contact/Contact";
 
 export default function App() {
     return (
@@ -15,6 +16,7 @@ export default function App() {
             <Events />
             <Menu />
             <Banner />
+            <Contact />
         </div>
     );
 }

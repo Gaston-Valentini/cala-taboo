@@ -258,5 +258,16 @@
         "slideSeven": "Los mejores DJ's",
         "slideEight": "Coctelería profesional",
         "slideNine": "Días temáticos"
+    },
+    "contact": {
+        "title": "Contacto",
+        "dataTitle": "Contáctactanos con un solo click",
+        "dataText": "Ponte en contacto con nosotros rellenando el siguiente formulario. Puedes utilizarlo para pedir reservas o si quieres celebrar eventos. También puedes ponerte en contacto para colaboraciones rellenando el formulario o bien llamando a nuestro número telefónico.",
+        "dataHoursWeek": "Lunes a Jueves y Domingo - 10:00 a 01:00",
+        "dataHoursWeekend": "Viernes y Sábado - 10:00 a 02:00",
+        "formMessage": "Mensaje...",
+        "formName": "Nombre...",
+        "formEmail": "Correo...",
+        "formSubmit": "Enviar"
     }
 }
