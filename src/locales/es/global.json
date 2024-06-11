@@ -269,5 +269,8 @@
         "formName": "Nombre...",
         "formEmail": "Correo...",
         "formSubmit": "Enviar"
+    },
+    "map": {
+        "link": "VER RUTA"
     }
 }

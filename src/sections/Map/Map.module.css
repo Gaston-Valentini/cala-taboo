@@ -1,0 +1,27 @@
+.container {
+    height: 500px;
+    position: relative;
+}
+
+.link {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.link a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    color: var(--brown);
+    background-color: var(--lightBrown);
+    border: 2px solid var(--brown);
+    transition: 0.3s;
+}
+
+.link a:hover {
+    background-color: var(--brown);
+    color: white;
+}
