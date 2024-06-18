@@ -14,49 +14,85 @@
 }
 
 .events {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.eventsFeatured {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
 }
 
-.eventsImage {
-    width: 100%;
-    box-shadow: var(--sectionShadow);
+.eventsFeaturedTitle {
+    font-size: 40px;
+    color: var(--lightBrown);
+    text-shadow: 0 0 10px var(--lightBrown);
 }
 
-.eventsImage img {
-    width: 100%;
+.eventsFeaturedList {
+    display: flex;
+    gap: 20px;
+}
+.eventsFeaturedListElement {
+    max-width: 400px;
+}
+
+.eventsFeaturedListElement img {
     height: 100%;
-    object-fit: cover;
+    width: 100%;
+    box-shadow: 0 0 5px 3px var(--lightBrown);
+}
+
+.eventsWeekly {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.eventsWeeklyTitle {
+    font-size: 30px;
+    color: var(--lightBrown);
+}
+
+.eventsWeeklyList {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.eventsWeeklyListElement img {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 10px black;
 }
 
 @media (max-width: 1440px) {
-    .events {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    }
 }
 
 @media (max-width: 1024px) {
     .overlay {
         padding: 50px 20px;
     }
-    .events {
+    .eventsWeeklyList {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
 @media (max-width: 768px) {
-    .events {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+    .eventsWeeklyList {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
 @media (max-width: 480px) {
-    .events {
+    .eventsWeeklyList {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }

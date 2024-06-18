@@ -40,6 +40,26 @@
     gap: 50px;
 }
 
+.menuSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.menuSectionTitle {
+    font-family: var(--secondary);
+    font-size: 30px;
+    color: var(--lightBrown);
+}
+
+.menuSectionSubsections {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .allergens {
     width: 100%;
     max-width: 1200px;

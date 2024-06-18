@@ -93,6 +93,24 @@
     color: var(--lightBrown);
 }
 
+.formFile {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.formFile span {
+    color: var(--brown);
+}
+
+.formFile input {
+    background-color: white;
+}
+
+.formFile input[type="file"] {
+    width: calc(100% - 20px);
+}
+
 .formSubmit {
     width: max-content;
     min-width: 100px;

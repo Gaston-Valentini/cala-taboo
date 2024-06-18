@@ -27,20 +27,52 @@ export default function Events() {
             <div className={style.overlay}>
                 <Title text={t("events.title")} />
                 {size <= 480 ? (
-                    <Slider>
-                        {events.map((event, eventIndex) => (
-                            <div key={eventIndex} className={style.eventsImage}>
-                                <img src={event.image} />
+                    <div className={style.events}>
+                        <div className={style.eventsFeatured}>
+                            <p className={style.eventsFeaturedTitle}>{t("events.featuredTitle")}</p>
+                            <div style={{ boxShadow: "0 0 5px 3px var(--lightBrown)", display: "grid" }}>
+                                <Slider>
+                                    {events.featured.map((event, eventIndex) => (
+                                        <div key={eventIndex} className={style.eventsImage}>
+                                            <img src={event.image} />
+                                        </div>
+                                    ))}
+                                </Slider>
                             </div>
-                        ))}
-                    </Slider>
+                        </div>
+                        <div className={style.eventsWeekly}>
+                            <p className={style.eventsWeeklyTitle}>{t("events.weeklyTitle")}</p>
+                            <div className={style.eventsWeeklyList}>
+                                {events.weekly.map((event, eventIndex) => (
+                                    <div key={eventIndex} className={style.eventsWeeklyListElement}>
+                                        <img src={event.image} />
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
                 ) : (
                     <div className={style.events}>
-                        {events.map((event, eventIndex) => (
-                            <div key={eventIndex} className={style.eventsImage}>
-                                <img src={event.image} />
+                        <div className={style.eventsFeatured}>
+                            <p className={style.eventsFeaturedTitle}>{t("events.featuredTitle")}</p>
+                            <div className={style.eventsFeaturedList}>
+                                {events.featured.map((event, eventIndex) => (
+                                    <div key={eventIndex} className={style.eventsFeaturedListElement}>
+                                        <img src={event.image} />
+                                    </div>
+                                ))}
                             </div>
-                        ))}
+                        </div>
+                        <div className={style.eventsWeekly}>
+                            <p className={style.eventsWeeklyTitle}>{t("events.weeklyTitle")}</p>
+                            <div className={style.eventsWeeklyList}>
+                                {events.weekly.map((event, eventIndex) => (
+                                    <div key={eventIndex} className={style.eventsWeeklyListElement}>
+                                        <img src={event.image} />
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
                     </div>
                 )}
             </div>

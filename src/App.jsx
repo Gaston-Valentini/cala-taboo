@@ -7,6 +7,7 @@ import Events from "./sections/Events/Events";
 import Menu from "./sections/Menu/Menu";
 import Contact from "./sections/Contact/Contact";
 import Map from "./sections/Map/Map";
+import Whatsapp from "./sections/Whatsapp/Whatsapp";
 
 export default function App() {
     return (
@@ -19,6 +20,7 @@ export default function App() {
             <Banner />
             <Contact />
             <Map />
+            <Whatsapp />
         </div>
     );
 }

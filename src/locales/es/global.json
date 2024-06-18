@@ -13,240 +13,553 @@
         "title": "NUESTRA HISTORIA"
     },
     "events": {
-        "title": "EVENTOS"
+        "title": "EVENTOS",
+        "featuredTitle": "¡DESTACADOS!",
+        "weeklyTitle": "SEMANALES"
     },
     "menu": {
         "title": "MENÚ",
-        "more": "Ver platos",
-        "moreActive": "Ocultar platos",
-        "salads": "Bowls de Ensaladas y Exóticos",
-        "salads1": {
-            "name": "MEDITERRÁNEA",
-            "description": "Mix de lechugas de la huerta, tomate, cebolla, pepino, atún, olivas y huevo."
+        "sections": {
+            "sectionOne": {
+                "title": "COMIDA",
+                "subsectionOne": {
+                    "title": "Ensaladas y Exóticos",
+                    "plates": {
+                        "plateOne": {
+                            "title": "MEDITERRÁNEA",
+                            "description": "Mix de lechuga, tomate, atún, zanahoria, remolacha, huevo, espárrago y cebolla."
+                        },
+                        "plateTwo": {
+                            "title": "DEL CESAR",
+                            "description": "Mix de lechuga, tomate, queso parmesano, pollo crispy, adereso especial César."
+                        },
+                        "plateThree": {
+                            "title": "NEW TABOO PARADISE",
+                            "description": "Mix de lechuga, tomate, láminas de pera con miel, nueces, langostinos y adereso del mar."
+                        },
+                        "plateFour": {
+                            "title": "TARTAR DE SALMÓN",
+                            "description": "Exótico plato de salmón noruego con extra salsa especial Asia y los secretos del chef."
+                        },
+                        "plateFive": {
+                            "title": "TARTAR DE ATÚN",
+                            "description": "Atún rojo marinado con nuestra salsa especial Asia y los secretos del chef."
+                        },
+                        "plateSix": {
+                            "title": "TATAKI DE ATÚN",
+                            "description": "Lonchas de atún marinadas y selladas con ajonjolí, acompañadas con wasabi y soja."
+                        },
+                        "plateSeven": {
+                            "title": "GAZPACHO",
+                            "description": "Delicioso y fresco gazpacho estilo andaluz acompañado de picatoste e ingredientes de la huerta."
+                        },
+                        "plateEight": {
+                            "title": "ESPECIAL QUESO DE CABRA",
+                            "description": "Mix de lechuga, tomate, frutos secos, queso de cabra, bacon ahumado y adereso especial de la casa."
+                        }
+                    }
+                },
+                "subsectionTwo": {
+                    "title": "Mr. Sandwich",
+                    "plates": {
+                        "plateOne": {
+                            "title": "MIXTO",
+                            "description": "Sandwich de jamón y queso con nuestras patatas fritas."
+                        },
+                        "plateTwo": {
+                            "title": "MIXTO CLUB CON HUEVO",
+                            "description": "Triple sandwich con jamón, queso y huevo frito con patatas fritas."
+                        },
+                        "plateThree": {
+                            "title": "VEGETAL TUNA",
+                            "description": "El clásico con mayonesa, lechuga, tomate, cebolla, huevo duro, atún y espárragos."
+                        },
+                        "plateFour": {
+                            "title": "HEALTHY",
+                            "description": "Queso crema, mostaza dulce, rúcula, aguacate y huevos a la francesa."
+                        },
+                        "plateFive": {
+                            "title": "BLT TABOO",
+                            "description": "Pan Brioche, delicioso pollo a la parrilla, bacon, lechuga, tomate y cebolla, acompañadas de la salsa tártara Taboo."
+                        },
+                        "plateSix": {
+                            "title": "NORWAY",
+                            "description": "Salmón ahumado noruego, acompañado de queso crema, aguacate, lechuga y tomate."
+                        },
+                        "plateSeven": {
+                            "title": "STREET NEW YORK. BIG HOT DOG",
+                            "description": "Salchicha XXL, con el mejor pan casero y acompañada con cebolla crujiente, ketchup y mostaza."
+                        }
+                    }
+                },
+                "subsectionThree": {
+                    "title": "Tablas Taboo",
+                    "plates": {
+                        "plateOne": {
+                            "title": "TABLA IBÉRICOS Y QUESO MANCHEGO",
+                            "description": "Jamón ibérico especial, queso manchego, tostadas y tomate."
+                        },
+                        "plateTwo": {
+                            "title": "DE IBÉRICOS",
+                            "description": "Selección de productos ibéricos especiales, para paladares exclusivos (lomo embuchado, chorizo, salchichón, jamón y paté)."
+                        },
+                        "plateThree": {
+                            "title": "DE QUESO TABOO",
+                            "description": "Los mejores quesos traidos a la mesa, acompañados de nuestra salsa de pimientos y tostadas (godapesto, cheddar chili, brie, gorgonzola, queso de cabra y queso manchego)."
+                        }
+                    }
+                },
+                "subsectionFour": {
+                    "title": "Burguer World",
+                    "plates": {
+                        "plateOne": {
+                            "title": "SMASH BURGER TABOO",
+                            "description": "Deliciosa doble carne de angus acompañada con queso cheddar ahumado, pepinillos, cebolla caramelizada, salsa burger y bañada con salsa cheddar."
+                        },
+                        "plateTwo": {
+                            "title": "LA IBÉRICA",
+                            "description": "200 gramos de angus acompañada de jamón ibérico, queso manchego, rúcula y nuestra salsa ibérica."
+                        },
+                        "plateThree": {
+                            "title": "USA Nº1",
+                            "description": "100% angus americana acompañada de lechuga, tomate, cebolla caramelizada, pepinillo, bacon y cheddar ahumado (opcional salsa Taboo)."
+                        },
+                        "plateFour": {
+                            "title": "BELLA ITALIA",
+                            "description": "200 gramos de angus acompañada de gouda con pesto, rúcula, tomates secos, parmesano y nuestra salsa italiana."
+                        },
+                        "plateFive": {
+                            "title": "TEX MEX",
+                            "description": "200 gramos de angus acompañada con queso cheddar chili, aguacate, cebolla, chile con carne, pico de gallo y guacamole."
+                        },
+                        "plateSix": {
+                            "title": "FRANCESA",
+                            "description": "200 gramos de angus acompañada de queso brie, lechuga, champiñones, cebolla caramelizada y nuestra salsa especial de trufas."
+                        },
+                        "plateSeven": {
+                            "title": "THE BEST CLASSIC",
+                            "description": "200 gramos de angus acompañada de queso cheddar ahumado, lechuga, tomate y cebolla (opcional salsa burger)."
+                        },
+                        "plateEight": {
+                            "title": "CRAZY CHIKEN",
+                            "description": "Pechuga especial de pollo crispy, acompañada con nuestra salsa tártara, tomate, lechuga y cebolla."
+                        }
+                    }
+                },
+                "subsectionFive": {
+                    "title": "The Grill & Especial",
+                    "plates": {
+                        "plateOne": {
+                            "title": "RACK DE COSTILLAS ESTILO SAN LUIS",
+                            "description": "Costillas elaboradas a fuego lento en su jugo de BBQ."
+                        },
+                        "plateTwo": {
+                            "title": "LOMO DE ENTRECOT",
+                            "description": "350 gramos de carne vaguno selecta."
+                        },
+                        "plateThree": {
+                            "title": "PRESA IBÉRICA",
+                            "description": "Procedente de los mejores cerdos ibércos con su carne veteada y un sabor único."
+                        },
+                        "plateFour": {
+                            "title": "POLLO ASADO TABOO",
+                            "description": "Delicioso medio pollo asado hecho a la brasa."
+                        },
+                        "plateFive": {
+                            "title": "COSTILLA DE TERNERA AL HORNO",
+                            "description": "Deliciosa costilla de ternera cocinada a baja temperatura en su propio jugo."
+                        },
+                        "plateSix": {
+                            "title": "THE KING",
+                            "description": "Un killo de chuletón vacuno a la brasa cocinado a tu gusto."
+                        },
+                        "plateSeven": {
+                            "title": "SALMÓN",
+                            "description": "Lomo de salmón (opcional salsa Taboo)."
+                        },
+                        "plateEight": {
+                            "title": "LOMO DE ATÚN",
+                            "description": "Al estilo Teriyaki."
+                        },
+                        "plateNine": {
+                            "title": "RODABALLO AL GRILL",
+                            "description": "Según temporada."
+                        }
+                    }
+                },
+                "subsectionSix": {
+                    "title": "Zona Tex Mex",
+                    "plates": {
+                        "plateOne": {
+                            "title": "FAJITAS DE POLLO / RES / MIXTA",
+                            "description": "Deliciosa tira de tu carne favorita asada acompañada de tortitas, guacamole, queso rallado y pico de gallo."
+                        },
+                        "plateTwo": {
+                            "title": "TRÍO DE TACOS",
+                            "description": "Degustación de tres tipos de tacos (pollo mechado, chile con carne, pulled pork), acompañados con nachos, pico de gallo y guacamole."
+                        },
+                        "plateThree": {
+                            "title": "BIG BURRITO",
+                            "description": "Relleno de pollo mechado o chile con carne o pulled pork, queso, aguacate y acompañado de guacamole y pico de gallo."
+                        },
+                        "plateFour": {
+                            "title": "ESPECIAL CHIWAWA",
+                            "description": "Perrito caliente XXL acompañado de chile con carne, cebolla crujiente y jalapeños !AY CHIWAWA!."
+                        },
+                        "plateFive": {
+                            "title": "FLAUTAS MEXICANAS",
+                            "description": "Auténtocas y crujientes flautas mexicanas rellenas de pollo y queso y bañadas de salsa jalapeño verde."
+                        }
+                    }
+                },
+                "subsectionSeven": {
+                    "title": "Arroces de la Terreta",
+                    "plates": {
+                        "plateOne": {
+                            "title": "ARROZ DE MAGRO, POLLO Y VERDURAS",
+                            "description": "Precio ración por persona (mínimo 2 personas)."
+                        },
+                        "plateTwo": {
+                            "title": "ARROZ SENYORET",
+                            "description": "Precio ración por persona (mínimo 2 personas)."
+                        },
+                        "plateThree": {
+                            "title": "ARROZ NEGRO",
+                            "description": "Precio ración por persona (mínimo 2 personas)."
+                        }
+                    }
+                },
+                "subsectionEight": {
+                    "title": "Sweet Moments",
+                    "plates": {
+                        "plateOne": {
+                            "title": "TARTA ESPECIAL MUERTE POR CHOCOLATE",
+                            "description": ""
+                        },
+                        "plateTwo": {
+                            "title": "CARROT CAKE",
+                            "description": "Delicioso pastel de zanahoria."
+                        },
+                        "plateThree": {
+                            "title": "TARTA DE QUESO MANCHEGO CON FRUTOS ROJOS",
+                            "description": ""
+                        },
+                        "plateFour": {
+                            "title": "TIRAMISÚ ICE",
+                            "description": "Reinventamos el clásico de los clásicos."
+                        },
+                        "plateFive": {
+                            "title": "BROWNIE DE CHOCOLATE Y HELADO",
+                            "description": ""
+                        },
+                        "plateSix": {
+                            "title": "BOLAS DE HELADO",
+                            "description": "Precio por unidad"
+                        }
+                    }
+                },
+                "subsectionNine": {
+                    "title": "Entrantes y Picoteo",
+                    "plates": {
+                        "plateOne": {
+                            "title": "PATATAS BRAVAS",
+                            "description": "Gajos de patatas condimentadas con nuestra fantástica salsa brava y ali oli."
+                        },
+                        "plateTwo": {
+                            "title": "ENSALADILLA RUSA",
+                            "description": "Clásica, casera y fresca."
+                        },
+                        "plateThree": {
+                            "title": "SET DE CROQUETAS",
+                            "description": "Combinaciones de croquetas de la casa con los sabores mar, aire y tierra."
+                        },
+                        "plateFour": {
+                            "title": "ALITAS HOT WINGS",
+                            "description": "Crujientes alitas en salsa Jack Daniels."
+                        },
+                        "plateFive": {
+                            "title": "NACHOS PANCHO VILLA",
+                            "description": "Totopos de maíz acompañados de salsa cheddar, chile con carne, jalapeños, pico de gallo, guacamole, con el mejor sabor tex mex."
+                        },
+                        "plateSix": {
+                            "title": "POLLO ACAPULCO",
+                            "description": "Solomillo de pollo estilo Kentuky acompañado con nachos y mostaza dulce."
+                        },
+                        "plateSeven": {
+                            "title": "TIRAS NUEVO MEXICO",
+                            "description": "Tiras de costilla de cerdo glaseadas con salsa BBQ al estilo Jack Daniels y toque de cebollino acompañado de totopos y salsa guacamole."
+                        },
+                        "plateEight": {
+                            "title": "TEQUEÑOS DE QUESO Y TÁRTARA",
+                            "description": "Sabrosos tequeños de queso con la receta de los Teques acompañados con la tártara Taboo."
+                        },
+                        "plateNine": {
+                            "title": "GAMBONES AL AJILLO",
+                            "description": "Lo más fresco de nuestro mar."
+                        },
+                        "plateTen": {
+                            "title": "GUACAMOLE VERACRUZ",
+                            "description": "Guacamole fresco con pico de gallo servido en mortero y acompañado de nachos."
+                        },
+                        "plateEleven": {
+                            "title": "COMBO TABOO",
+                            "description": "Alitas, aros de cebolla, jalapeños rellenos con queso y patatas fritas, acompañado con salsa BBQ y crema agria."
+                        },
+                        "plateTwelve": {
+                            "title": "CALAMARES A LA BAHÍA",
+                            "description": "Troceados a la plancha."
+                        },
+                        "plateThirteen": {
+                            "title": "FRITURAS DE CHOPITOS Y/O CALAMARES",
+                            "description": "Combinación de frituras de calamarers y chopitos a la andaluza ¡ESPECTACULAR!."
+                        },
+                        "plateFourteen": {
+                            "title": "FRITURAS DE LA BAHÍA",
+                            "description": "Gamba, chopito, pesca del día y calamar."
+                        },
+                        "plateFifteen": {
+                            "title": "TRÍO ASIÁTICO",
+                            "description": "Fukuyaki de pollo, tacoyaki de pulpo, eviyaki de langostino."
+                        }
+                    }
+                },
+                "subsectionTen": {
+                    "title": "Vegan World",
+                    "plates": {
+                        "plateOne": {
+                            "title": "GREEN BURGER",
+                            "description": "Pan vegano rústico, hamburguesa de soja y vegetales, rúcula, tomate y nuestra salsa especial de pesto."
+                        },
+                        "plateTwo": {
+                            "title": "GREEN BBQ BURGER",
+                            "description": "Pan vegano rústico, hamburguesa beyond,, lechuga, tomate, cebolla, pepinillo, mayonesa vegana y queso cheddar vegano."
+                        },
+                        "plateThree": {
+                            "title": "PARRILLA DE VERDURAS",
+                            "description": "Hecha con las mejores verduras de la huerta."
+                        },
+                        "plateFour": {
+                            "title": "ATÚN VEGANO TERIYAKI",
+                            "description": "Deliciosa carne de soja preparada con la receta Taboo, similar al sabor del atún, acompañada con salsa vegetal."
+                        },
+                        "plateFife": {
+                            "title": "WINGS DE CAULIFLOWER",
+                            "description": "Frituras de coliflor con el estilo americano."
+                        }
+                    }
+                },
+                "subsectionEleven": {
+                    "title": "Menú Infantil",
+                    "plates": {
+                        "plateOne": {
+                            "title": "BURGER VACUNA O SANDWICH MIXTO",
+                            "description": "Incluye patatas, bebidas y postre."
+                        }
+                    }
+                },
+                "subsectionTwelve": {
+                    "title": "Pizzas",
+                    "plates": {
+                        "plateOne": {
+                            "title": "MARGHERITA",
+                            "description": "Tomate san marzano, mozzarella fior di latte."
+                        },
+                        "plateTwo": {
+                            "title": "  AL PROSCUITTO",
+                            "description": "Tomate san marzano, mozarella fior di latte, proscuitto."
+                        },
+                        "plateThree": {
+                            "title": "PEPPERONI",
+                            "description": "Tomate san marzano, mozzarella fior di latte, pepperoni."
+                        },
+                        "plateFour": {
+                            "title": "4 FORMAGGI",
+                            "description": "Tomate san marzano, mozarella fior di latte, queso cheddar, gorgonzola, parmesano."
+                        },
+                        "plateFive": {
+                            "title": "RANCHERA",
+                            "description": "Tomate san marzano, mozarella fior di latte, carne picada, cebolla, salsa BBQ."
+                        },
+                        "plateSix": {
+                            "title": "AL TONNO",
+                            "description": "Tomate san marzano, mozarella fior di latte, atún, cebolla, aceitunas negras."
+                        },
+                        "plateSeven": {
+                            "title": "PIZZA PROSCUITTO E FUNGHI",
+                            "description": "Tomate san marzano, mozarella fior di latte, jamón york y champiñón fresco."
+                        },
+                        "plateEight": {
+                            "title": "PIZZA CARBONARA",
+                            "description": "Fior di latte, bacon, cebolla, huevo."
+                        },
+                        "plateNine": {
+                            "title": "FOCACCIA AL ROMERO",
+                            "description": "Auténtica e irresistible."
+                        },
+                        "plateTen": {
+                            "title": "NAPOLETANA",
+                            "description": "Tomate san marzano, mozarella fior di latte, alcaparra, aceituna y anchoa."
+                        }
+                    }
+                }
+            },
+            "sectionTwo": {
+                "title": "BEBIDA",
+                "subsectionOne": {
+                    "title": "Cócteles",
+                    "plates": {
+                        "plateOne": {
+                            "title": "CAIPIROSKA",
+                            "description": "Vodla, lima y azúcar."
+                        },
+                        "plateTwo": {
+                            "title": "CAIPIRIÑA",
+                            "description": "Cachaca, lima y azúcar."
+                        },
+                        "plateThree": {
+                            "title": "CAIPIRISSIMA",
+                            "description": "Ron, lima y azúcar."
+                        },
+                        "plateFour": {
+                            "title": "MOJITO CLÁSICO (SABORES + 1€)",
+                            "description": "Ron blanco, azúcar, hierba buena y agua con gas."
+                        },
+                        "plateFive": {
+                            "title": "DAIKIRI CLÁSICO (SABORES + 1€)",
+                            "description": "Ron blanco, azúcar y zumo de lima."
+                        },
+                        "plateSix": {
+                            "title": "PIÑA COLADA",
+                            "description": "Ron blanco, coco, piña y leche."
+                        },
+                        "plateSeven": {
+                            "title": "TEQUILA SUNRISE",
+                            "description": "Tequila, zumo de naranja y granadina."
+                        },
+                        "plateEight": {
+                            "title": "PORNSTAR MARTINI",
+                            "description": "Vodka de vainilla, licor y puré de fruta de la pasión y zumo de lima."
+                        },
+                        "plateNine": {
+                            "title": "APEROL SPRITZ",
+                            "description": "Aperol, cava y agua con gas."
+                        },
+                        "plateTen": {
+                            "title": "COCO LOCO",
+                            "description": "Ron blanco, agua de coco, leche de coco y zumo de lima."
+                        },
+                        "plateEleven": {
+                            "title": "BLUE LAGOON",
+                            "description": "Vodka, zumo de lima, sprite y curaçao."
+                        },
+                        "plateTwelve": {
+                            "title": "COSMOPOLITAN",
+                            "description": "Vodka, cointreau y zumo de arándanos."
+                        },
+                        "plateThirteen": {
+                            "title": "MAI THAI",
+                            "description": "Ron blanco y negro, amaretto, zumo de lima y zumo de piña."
+                        },
+                        "plateFourteen": {
+                            "title": "SEX ON THE BEACH",
+                            "description": "Vodka, zumo de naranja, licor de melocotón y granadina."
+                        },
+                        "plateFifteen": {
+                            "title": "LONG ISLAND",
+                            "description": "Ron blanco, vodka, tequila, ginebra, triple seco, zumo de lima y coca cola."
+                        },
+                        "plateSixteen": {
+                            "title": "MOJITO FROZEN",
+                            "description": "Ron, hierba buena, zumo de lima y jarabe de azucar."
+                        },
+                        "plateSeventeen": {
+                            "title": "QUEEN PIÑA COLADA",
+                            "description": "Ron, crema de coco, zumo de piña, leche y extra piña tamaño XXL."
+                        },
+                        "plateEighteen": {
+                            "title": "TABOO",
+                            "description": "Mezcla de piña colada y daikiri de fresa con blue curaçao."
+                        },
+                        "plateNineteen": {
+                            "title": "NEGRONI",
+                            "description": "Ginebra, campari y Martini Rosso."
+                        },
+                        "plateTwenty": {
+                            "title": "VOODOO",
+                            "description": "Vodka, kiwi, lima y Sprite."
+                        },
+                        "plateTwentyOne": {
+                            "title": "BLACK RUSSIAN",
+                            "description": "Vodka, Tía María y coca cola."
+                        },
+                        "plateTwentytwo": {
+                            "title": "MARGARITA CLÁSICO",
+                            "description": "Tequila, triple seco y zumo de lima."
+                        },
+                        "plateTwentythree": {
+                            "title": "MARGARITA CORONA + SABORES",
+                            "description": "Tequila, triple seco, zumo de lima, jarabe de azúcar, zumo de naranja y cerveza Corona."
+                        },
+                        "plateTwentyfour": {
+                            "title": "BLOODY MARY",
+                            "description": "Vodka, zumo de tomate, sal, pimienta, tabasco, salsa Perrins y zumo de lima."
+                        },
+                        "plateTwentyfive": {
+                            "title": "EXPRESSO MARTINI",
+                            "description": "Vodka, licor de café, Espresso y jarabe de azúcar."
+                        },
+                        "plateTwentysix": {
+                            "title": "MICHELADA",
+                            "description": "Kermato, tabasco, salsa Perrins, zumo de lima, sal, pimienta y cerveza Corona."
+                        },
+                        "plateTwentyseven": {
+                            "title": "MOSCOW MULE",
+                            "description": "Vodka, zumo de lima y ginger beer."
+                        }
+                    }
+                },
+                "subsectionTwo": {
+                    "title": "Cócteles Sin Alcohol",
+                    "plates": {
+                        "plateOne": {
+                            "title": "MOJITO (SABORES + 1€)",
+                            "description": ""
+                        },
+                        "plateTwo": {
+                            "title": "DAIKIRI (SABORES + 1€)",
+                            "description": ""
+                        },
+                        "plateThree": {
+                            "title": "PIÑA COLADA",
+                            "description": ""
+                        },
+                        "plateFour": {
+                            "title": "SAN FRANCISCO",
+                            "description": ""
+                        }
+                    }
+                }
+            },
+            "more": "Ver platos",
+            "less": "Ocultar platos"
         },
-        "salads2": {
-            "name": "GAZPACHO",
-            "description": "Delicioso y fresco gazpacho estilo andaluz acompañado de picatostes e ingredientes de la huerta."
-        },
-        "salads3": {
-            "name": "DEL CESAR",
-            "description": "Variedad de lechugas, picatostes tostados, queso parmesano, tomate cherry, tiras de pollo y salsa especial del cesar."
-        },
-        "salads4": {
-            "name": "TARTAR DE SALMÓN",
-            "description": "Exótico y espectacular."
-        },
-        "salads5": {
-            "name": "TARTAR DE ATÚN",
-            "description": "Sabroso y especial, acompañado de vinagreta de mango y ralladura de lima."
-        },
-        "salads6": {
-            "name": "ESPECIAL QUESO CABRA",
-            "description": "Mix de lechugas, tomate cherry, queso de cabra, top de frutos secos caramelizados y bacón crujiente, bañado con miel y vinagre balsamico."
-        },
-        "salads7": {
-            "name": "TATAKI DE ATÚN",
-            "description": "Lonchas de atún marinado y sellado con ajonjolí, acompañado con wasabi y soja."
-        },
-        "salads8": {
-            "name": "TABOO PARADISE",
-            "description": "Mix de frutas y lechuga con sabrosos tacos de queso edam y frutos secos, tiras de jamón serrano y bañado por nuestra auténtica salsa thai."
-        },
-        "rations": "Raciones y Picoteo",
-        "rations1": {
-            "name": "PATATAS BRAVAS",
-            "description": "Deliciosas patatas bañadas en nuestra auténtica salsa brava de la casa."
-        },
-        "rations2": {
-            "name": "ALITAS HOT WINGS",
-            "description": "Crujientes al estilo Jack Daniels."
-        },
-        "rations3": {
-            "name": "GUACAMOLE VERACRUZ",
-            "description": "Sabroso y fresco guacamole servido en mortero acompañado de totopos crujientes."
-        },
-        "rations4": {
-            "name": "ENSALADILLA RUSA",
-            "description": "Un clásico, casera y fresca."
-        },
-        "rations5": {
-            "name": "SET DE CROQUETAS",
-            "description": "Combinación de croquetas caseras de jamón, boletus y pollo (6 uds)."
-        },
-        "rations6": {
-            "name": "NACHOS PANCHO VILLA",
-            "description": "Crujientes y sabrosos nachos de maíz con chili con carne y gratinados con mezcla de quesos, rodajas de jalapeño, salsa pico de gallo, cilantro y coronados con salsa guacamole."
-        },
-        "rations7": {
-            "name": "COMBO TABOO",
-            "description": "Alitas, aros de cebolla y jalapeños rellenos de queso acompañados de salsa bbq, crema agria y nuestras patatas fritas especiales."
-        },
-        "rations8": {
-            "name": "TIRAS NUEVO MEXICO",
-            "description": "Tiras de costilla de cerdo asado y glaseadas con salsa bbq al estilo Jack Daniels y toque de cebollino. Acompañado de totopos y salsa guacamole."
-        },
-        "rations9": {
-            "name": "CALAMAR BAHÍA PLANCHA",
-            "description": ""
-        },
-        "rations10": {
-            "name": "FRITURA DE CHOPITOS Y CALAMAR",
-            "description": "Combinación de fritura de calamares y chopitos a la andaluza. ¡¡Espectacular!!"
-        },
-        "rations11": {
-            "name": "POLLO ACAPULCO",
-            "description": "Tiras de solomillo de pollo crujiente acompañado de dos salsas."
-        },
-        "boards": "Tablas Taboo",
-        "boards1": {
-            "name": "DE HIBÉRICOS",
-            "description": "Especial de hibéricos acompañada de tostas con tomate"
-        },
-        "boards2": {
-            "name": "ESPECIAL TABOO",
-            "description": "Una deliciosa combinación de patés y quesos D.O acompañado de pepinillos, cebolletas, tostas para untar y confituras de sabores. Un espectáculo."
-        },
-        "boards3": {
-            "name": "JAMÓN HIBÉRICO Y MANCHEGO",
-            "description": "Deliciosa tabla de jamón hibérico y queso manchego D.O acompañado de tostas con tomate."
-        },
-        "grill": "The Grill & BBQ",
-        "grill1": {
-            "name": "RACK COSTILLAS AL ESTILO ST. LOUIS",
-            "description": "Auténticas e inimitables."
-        },
-        "grill2": {
-            "name": "LOMO DE ENTRECOTE",
-            "description": "300grs de vacuno."
-        },
-        "grill3": {
-            "name": "LA PRESA IBÉRICA",
-            "description": "Sabrosísimo filete de auténtica presa ibérica con padrón y patatas baby o fritas."
-        },
-        "grill4": {
-            "name": "SALMÓN",
-            "description": "Lomo de salmón al jugo de limón y toque de eneldo."
-        },
-        "grill5": {
-            "name": "LOMO DE ATÚN FRESCO",
-            "description": "AL estilo teriyaki."
-        },
-        "grill6": {
-            "name": "PARRILLADA DE VERDURAS TABOO",
-            "description": "Con los mejores ingredientes de nuestra huerta."
-        },
-        "sandwiches": "Sand/Wich Time",
-        "sandwiches1": {
-            "name": "BLT TABOO",
-            "description": "Un clásico. delicioso pollo a la parrilla con tomate, lechuga, salsa mayo y bacón crujiente en una magnifica presentación."
-        },
-        "sandwiches2": {
-            "name": "NORWAY CLUB",
-            "description": "Sabroso salmón ahumado noruego acompañado de crema de queso fresco light, aguacate, lechuga y tomate."
-        },
-        "sandwiches3": {
-            "name": "STREET NY. HOT MEGADOG",
-            "description": "Salchicha xxl especial acompañado de nuestra auténtica cebolla crujiente, ketchup y mostaza clásica."
-        },
-        "burgers": "Burguer World",
-        "burgers1": {
-            "name": "SMASH BURGER TABOO",
-            "description": "Deliciosa hamburguesa doble de vacuno al puro estilo smash con queso cheddar, pepinillo, cebolla caramelizada y salsa burguer."
-        },
-        "burgers2": {
-            "name": "LA IBÉRICA",
-            "description": "200grs de auténtica carne de vacuno 100% con rúcula, jamón ibérico y queso manchego."
-        },
-        "burgers3": {
-            "name": "USA Nº1",
-            "description": "Auténtica hamburguesa al puro estilo neoyorkino. Vacuno 100%, queso cheddar, lechuga, tomate, cebolla, pepinillo y bacon."
-        },
-        "burgers4": {
-            "name": "BELLA ITALIA",
-            "description": "Deliciosa carne de vacuno madurada, acompañada de cremoso queso provolone, rúcula, tomate seco y un toque de albahaca, todo coronado con escamas de parmesano."
-        },
-        "burgers5": {
-            "name": "TEX MEX",
-            "description": "Carne de vacuno 100% con aguacate, cebolla morada, jalapeños y queso cheddar, acompañada de guacamole, salsa pico de gallo, chili con carne y totopos."
-        },
-        "burgers6": {
-            "name": "FRANCESA",
-            "description": "200grs de vacuno 100% coronado por delicioso quesio brie, cebolla caramelizada, mix de ensalada y crema de champiñones."
-        },
-        "burgers7": {
-            "name": "CRAZY CHICKEN",
-            "description": "Pechuga de pollo fresca salpimentada con tomate, nuestra salsa especial mayo y lechuga."
-        },
-        "tex-mex": "Zona Tex Mex",
-        "tex-mex1": {
-            "name": "FAJITAS DE POLLO-RES O MIXTA",
-            "description": "Para todos los gustos."
-        },
-        "tex-mex2": {
-            "name": "TRÍO TACOS TABOO",
-            "description": "Degustación de 3 tipos de taco. el pulled pork, el pollo loco mechado, y el de carne al estilo Tijuana. Acompañados de salsa pico de gallo, crema agria, queso cheddar y guacamole."
-        },
-        "tex-mex3": {
-            "name": "FLAUTAS CHIHUAHUA",
-            "description": "Auténticas flautas mexicanas rellenas de pollo loco, cheddar y salsa verde mexicana."
-        },
-        "rice": "Nuestro Arroz",
-        "rice1": {
-            "name": "ARROZ DE MAGRO CON VERDURAS",
-            "description": ""
-        },
-        "rice2": {
-            "name": "ARROZ DE POLLO CON VERDURAS",
-            "description": ""
-        },
-        "rice3": {
-            "name": "ARROZ SENYORET",
-            "description": ""
-        },
-        "desserts": "Sweet Moment",
-        "desserts1": {
-            "name": "EL BROWNIE",
-            "description": "Brownie de chocolate acompañado de de una bola de helado 100% de la casa."
-        },
-        "desserts2": {
-            "name": "NUESTRA TARTA DE QUESO CON FRUTOS ROJOS",
-            "description": "Una delicia de sabor."
-        },
-        "desserts3": {
-            "name": "CARROT CAKE",
-            "description": "Delicioso pastel de zanahoria"
-        },
-        "desserts4": {
-            "name": "MONTAÑA DE TORITAS ALABAMA",
-            "description": "Delicioso pastel de zanahoria"
-        },
-        "desserts5": {
-            "name": "TIRAMISÚ CASERO",
-            "description": "El clásico de los clásicos"
-        },
-        "desserts6": {
-            "name": "MUERTE POR CHOCOLATE",
-            "description": ""
-        },
-        "desserts7": {
-            "name": "CARPACCIO DE PIÑA COSTA RICA",
-            "description": "Lo mejor del verano."
-        },
-        "allergensTitle": "Consulta nuestra carta de alergenos",
-        "allergensOne": "Gluten",
-        "allergensTwo": "Crustáceos",
-        "allergensThree": "Huevo",
-        "allergensFour": "Pescado",
-        "allergensFive": "Cacahuetes",
-        "allergensSix": "Soja",
-        "allergensSeven": "Lácteos",
-        "allergensEight": "Frutos con cáscara",
-        "allergensNine": "Apio",
-        "allergensTen": "Mostaza",
-        "allergensEleven": "Sésamo",
-        "allergensTwelve": "Sulfitos",
-        "allergensThirteen": "Altramuces",
-        "allergensFourteen": "Moluscos"
+        "allergens": {
+            "title": "Consulta nuestra carta de alergenos",
+            "allergensOne": "Gluten",
+            "allergensTwo": "Crustáceos",
+            "allergensThree": "Huevo",
+            "allergensFour": "Pescado",
+            "allergensFive": "Cacahuetes",
+            "allergensSix": "Soja",
+            "allergensSeven": "Lácteos",
+            "allergensEight": "Frutos con cáscara",
+            "allergensNine": "Apio",
+            "allergensTen": "Mostaza",
+            "allergensEleven": "Sésamo",
+            "allergensTwelve": "Sulfitos",
+            "allergensThirteen": "Altramuces",
+            "allergensFourteen": "Moluscos"
+        }
     },
     "slider": {
         "slideOne": "La mejor gastronomía de la costa",
@@ -272,5 +585,8 @@
     },
     "map": {
         "link": "VER RUTA"
+    },
+    "whatsapp": {
+        "text": "RESERVA TU MESA"
     }
 }

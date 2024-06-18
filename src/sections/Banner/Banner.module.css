@@ -1,5 +1,5 @@
 .container {
-    height: 800px;
+    height: 1000px;
 }
 
 .slide {
@@ -22,4 +22,10 @@
     font-size: 40px;
     color: white;
     text-shadow: 0 0 10px black;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        height: 600px;
+    }
 }

@@ -16,15 +16,16 @@ export default function Contact() {
         message: "",
         name: "",
         email: "",
+        file: "",
     });
     const formRef = useRef(null);
     const [confirmMessage, setConfirmMessage] = useState(0);
 
     const handleChange = (e) => {
-        const { name, value } = e.target;
+        const { name, value, files } = e.target;
         setForm((prevState) => ({
             ...prevState,
-            [name]: value,
+            [name]: files ? files[0] : value,
         }));
     };
 
@@ -90,10 +91,14 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
-                <form className={style.form} ref={formRef} onSubmit={handleSubmit}>
-                    <textarea placeholder={t("contact.formMessage")} name="message" onChange={(e) => handleChange(e)} />
-                    <input type="text" name="name" placeholder={t("contact.formName")} onChange={(e) => handleChange(e)} />
-                    <input type="email" name="email" placeholder={t("contact.formEmail")} onChange={(e) => handleChange(e)} />
+                <form className={style.form} ref={formRef} onSubmit={handleSubmit} encType="multipart/form-data">
+                    <textarea placeholder={t("contact.formMessage")} name="message" onChange={handleChange} />
+                    <input type="text" name="name" placeholder={t("contact.formName")} onChange={handleChange} />
+                    <input type="email" name="email" placeholder={t("contact.formEmail")} onChange={handleChange} />
+                    <div className={style.formFile}>
+                        <span>¿Quieres unirte a nosotros? Adjunta tu CV</span>
+                        <input type="file" name="file" onChange={handleChange} />
+                    </div>
                     <input type="submit" value={t("contact.formSubmit")} className={style.formSubmit} disabled={!canSubmit} />
                     {confirmMessage === 200 && <p>{t("contact.confirmMessageOk")}</p>}
                     {confirmMessage === 400 && <p>{t("contact.confirmMessageBad")}</p>}
